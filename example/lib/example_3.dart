@@ -72,7 +72,7 @@ class _ExampleThreeState extends State<ExampleThree> {
       swipeChild: true,
       leftAnimationType: InnerDrawerAnimation.quadratic,
       leftChild: Material(
-          color: Theme.of(context).backgroundColor,
+          color: Theme.of(context).scaffoldBackgroundColor,
           child: Center(
             child: Container(
                 child: Column(

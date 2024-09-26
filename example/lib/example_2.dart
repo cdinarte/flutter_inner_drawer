@@ -82,7 +82,7 @@ class _ExampleTwoState extends State<ExampleTwo> {
       leftAnimationType: _animationType,
       rightAnimationType: _animationType,
       leftChild: Material(
-          color: Theme.of(context).backgroundColor,
+          color: Theme.of(context).scaffoldBackgroundColor,
           child: Center(
             child: Container(
               child: Text(
@@ -92,7 +92,7 @@ class _ExampleTwoState extends State<ExampleTwo> {
             ),
           )),
       rightChild: Material(
-          color: Theme.of(context).backgroundColor,
+          color: Theme.of(context).scaffoldBackgroundColor,
           child: Center(
             child: Container(
               child: Text(
