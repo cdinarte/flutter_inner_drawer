@@ -10,7 +10,7 @@ Inner Drawer is an easy way to create an internal side section (left/right) wher
 Add this to your package's pubspec.yaml file:
 ```dart
 dependencies:
-  flutter_inner_drawer: "^1.0.0+1"
+  flutter_inner_drawer: "^1.0.2"
 ```
 ## Demo
 <div align="center">

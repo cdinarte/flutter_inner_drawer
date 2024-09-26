@@ -1,3 +1,7 @@
+## [1.0.2] - 2021-03-17.
+
+* [Fixed] - Null support and theme color.
+
 ## [1.0.0+1] - 2021-03-17.
 
 * [Fixed] - Improvement null safety support.
