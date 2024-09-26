@@ -572,7 +572,10 @@ class InnerDrawerState extends State<InnerDrawer> with SingleTickerProviderState
     final double wFactor = (_controller.value * (1 - offset)) + offset;
 
     return Container(
-      decoration: widget.backgroundDecoration ?? BoxDecoration(color: Theme.of(context).backgroundColor),
+      decoration: widget.backgroundDecoration ??
+          BoxDecoration(
+            color: Theme.of(context).scaffoldBackgroundColor,
+          ),
       child: Stack(
         alignment: _drawerInnerAlignment!,
         children: <Widget>[
